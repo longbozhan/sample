@@ -12,5 +12,5 @@ ulimit unlimited
 ![avatar](hook_exception.png)
 
 # 参考
-<https://abcdabcd987.com/libstdc++-bug/>
-<https://byronhe.com/post/cpp-throw-coredump-with-backtrace/>
+* <https://abcdabcd987.com/libstdc++-bug/>
+* <https://byronhe.com/post/cpp-throw-coredump-with-backtrace/>
