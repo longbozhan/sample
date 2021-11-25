@@ -3,7 +3,7 @@
 #include <thread>
 
 extern "C" { //加这3行代码，通过 hook __cxa_throw，直接 abort，可以避免 stack unwind。
-// void __cxa_throw(void* ex, void* info, void (*dest)(void*)) { ::abort(); }
+void __cxa_throw(void* ex, void* info, void (*dest)(void*)) { ::abort(); }
 }
 
 void func(){
