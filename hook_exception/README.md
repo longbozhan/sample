@@ -11,6 +11,6 @@ ulimit unlimited
 这是产生core文件后，用gdb看到的效果
 ![avatar](hook_exception.png)
 
-#参考
+# 参考
 <https://abcdabcd987.com/libstdc++-bug/>
 <https://byronhe.com/post/cpp-throw-coredump-with-backtrace/>
