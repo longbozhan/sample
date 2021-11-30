@@ -5,7 +5,8 @@
 * 双击build目录下的enml_clip.exe
 * 复制一段印象笔记内容
 * 快捷键ctrl+shift+e
-* 如果想改源码，打包，可以这样：
+* 这时候出现dos窗口的内容就是粘贴板中的内容
+* 如果想改源码并自己打包，可以这样：
 ```bash
 pip install pyinstaller
 pyinstaller --console --onefile enml_clip.py
