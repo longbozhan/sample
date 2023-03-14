@@ -1,0 +1,2 @@
+python实现的ddos攻击
+依赖scapy库，如果在windows，需要下载npcap库
